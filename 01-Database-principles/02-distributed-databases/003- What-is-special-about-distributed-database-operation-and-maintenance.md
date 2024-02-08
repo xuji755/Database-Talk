@@ -2,8 +2,6 @@
 
 对于分布式数据库的运维，我遇到过一个朋友，他说他们现在很头痛。分布式数据库是小问题不需要运维，大问题运维人员搞不定。搞得他请外包DBA觉得不划算，不请又心里不踏实，用原厂又用不起。目前的情况是有不少企业已经开始使用分布式数据库了，也还有些企业在观望，不太敢马上入坑。他们担心的问题主要还是运维的问题。运维领域有句名言“运维最大的困难是未知”。
 
-<img title="" src="file:///C:/Users/jacks/Pictures/Typedown/a467028d-de7a-41d7-a394-02bfc9055632.png" alt="a467028d-de7a-41d7-a394-02bfc9055632" data-align="center">
-
 这句话包含了多个层面的含义：对数据库运行状态的未知；对技术的未知；对可能遇到的问题的未知，这些未知汇聚起来就是恐惧。当年我们从foxpro转向大型数据库，转向Oracle的时候，也遇到过这样的时期，那时候出过几次大问题并且搞不定后，很多企业都有过想回到简单的不需要运维的foxpro。与我们熟知的集中式数据库相比，分布式数据库就像一只巨大的史前生物一样，神秘、未知、令人恐惧。
 
 用过分布式数据库的朋友都知道，分布式数据库从组成结构上来说，更加复杂。甚至有些国产分布式数据库是由几十个不同的开源组件组合而成的。仅仅安装部署，我们就需要学习ETCD、ZOOKEEPER、KAFKA、Mysql、Myproxy、普罗米修斯等大型开源组件后才能完成。不过也有些朋友说分布式数据库运维其实没那么复杂，大部分的运行中遇到的软硬件故障，分布式数据库都会自动处置，不需要运维人员干预。
@@ -40,7 +38,7 @@
 
 
 
-##  What is special about distributed database operation and maintenance?
+## What is special about distributed database operation and maintenance?
 
 For the operation and maintenance of distributed databases, I met a friend who said they are very headache now. Distributed databases are small problems that do not require operation and maintenance, big problems that operation and maintenance personnel can not solve. He felt that it was not cost-effective to hire outsourced DBA, and he was not at ease without hiring, and he could not afford to use the original factory. The current situation is that many enterprises have started to use distributed databases, and there are also some enterprises in the wait-and-see, not dare to enter the pit immediately. The main problem they worry about is the operation and maintenance. There is a famous saying in the field of operation and maintenance: “The biggest difficulty of operation and maintenance is unknown”.
 
@@ -73,7 +71,3 @@ Cluster data distribution imbalance and load distribution imbalance may also cau
 Slow SQL analysis of distributed databases is also very critical, finding slow SQL, reading the distributed execution plan, finding the problems in the execution plan, is the daily operation and maintenance DBA often do things. If you find that the parallel execution on a node is slow, then you need to analyze the node and eliminate the hidden danger.
 
 The operation and maintenance of distributed databases, for enterprises and DBA, are in the initial stage, the relevant operation and maintenance knowledge, fault cases, expert experience are relatively scarce. Database manufacturers also have the obligation to sort out and sort out this information, and publish it on their own network, so that when we encounter operation and maintenance problems, there is a reference basis. We also hope that some enterprises that use the same database products, can also establish a circle of friends, share this experience, as soon as possible through the operation and maintenance knowledge and ability of the window period.
-
-
-
-
