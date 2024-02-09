@@ -24,7 +24,7 @@ _比较麻烦的是，_分布式数据库的健康评估是比较复杂的，对
 
 仅仅实现准确的健康评估还不足够，更重要的是发现健康问题之后还需要能够进行问题溯源与解决方案分析。要想实现这一点，必须从两个方面做监控的增强。一方面是更加准确与全面的采集分布式数据库的指标，并能够高效的进行异常检测，从而能够全面的发现数据库指标的异常；另外一方面是能够快速的积累故障模型，构建常见故障的分析诊断与应急处置的标准化方法。
 
-<img src="https://github.com/xuji755/Database-Talk/image/925be989-1e5d-49bf-993c-f6cd6ff89d7f.png" title="" alt="925be989-1e5d-49bf-993c-f6cd6ff89d7f" data-align="center">
+<img src="[https://github.com/xuji755/Database-Talk/image/925be989-1e5d-49bf-993c-f6cd6ff89d7f.png](https://github.com/xuji755/Database-Talk/blob/main/image/925be989-1e5d-49bf-993c-f6cd6ff89d7f.png)" title="" alt="925be989-1e5d-49bf-993c-f6cd6ff89d7f" data-align="center">
 
 比如上面是某国产分布式数据库的一个故障场景，该场景会导致业务响应变慢。只要拥有充分的指标数据，通过规则引擎很容易描述出其中的场景，并形成自动化分析与诊断的工具。一切恐惧都来自于未知，正是因为我们对国产分布式数据库的运维经验积累还不充分，才导致了遇到问题时的手足无措。二十多年前，我们面对Oracle数据库的时候，也是如此的，随着应用场景的丰富以及运维经验被不断的积累，这些问题都会慢慢好起来的。
 
@@ -54,6 +54,6 @@ In addition, for distributed databases, we also need to introduce new evaluation
 
 It is not enough to achieve accurate health assessment, more importantly, after finding health problems, we also need to be able to do problem tracing and solution analysis. To achieve this, we need to enhance the monitoring from two aspects. On the one hand, more accurate and comprehensive collection of distributed database indicators, and efficient anomaly detection, so as to comprehensively find the abnormality of database indicators; on the other hand, we need to quickly accumulate fault models, build standardized methods of fault analysis and diagnosis and emergency disposal.
 
-![925be989-1e5d-49bf-993c-f6cd6ff89d7f](C:\Users\jacks\Pictures\Typedown\925be989-1e5d-49bf-993c-f6cd6ff89d7f.png)
+<img src="[https://github.com/xuji755/Database-Talk/image/925be989-1e5d-49bf-993c-f6cd6ff89d7f.png](https://github.com/xuji755/Database-Talk/blob/main/image/925be989-1e5d-49bf-993c-f6cd6ff89d7f.png)" title="" alt="925be989-1e5d-49bf-993c-f6cd6ff89d7f" data-align="center">
 
 For example, the above is a fault scenario of a domestic distributed database, which will cause the business response to slow down. As long as you have sufficient indicator data, you can easily describe the scenario through the rule engine and form an automated analysis and diagnosis tool. All fear comes from the unknown, precisely because we are not enough for the operation and maintenance experience of domestic distributed databases, which leads to the helplessness when encountering problems. Twenty years ago, we faced Oracle database, it was the same, with the enrichment of application scenarios and operation and maintenance experience being constantly accumulated, these problems will gradually get better.
